@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user">
+        </div>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <h1>Landing Page</h1>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, soluta.</p>
+
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+        <h2>What is this?</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, assumenda dolor! Corrupti maxime illum repellendus tempora laudantium autem aliquid in voluptates, alias voluptate architecto cum quia porro iusto aut totam.</p>
+        <p>lorem20</p>
+
+        <h2>Tell me more</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facilis illum molestiae ipsam eaque fugiat reiciendis tempora tenetur dolorem eligendi magni, perspiciatis voluptates blanditiis recusandae possimus minus nemo ea dicta, eveniet ullam corporis quisquam perferendis vel! Inventore ducimus ut id.</p>
+
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money-Back</li>
+            <li>Tailored Customer Support</li>
+        </ul>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum et sequi quibusdam tempore veritatis? Repellendus illum ad modi nulla reprehenderit alias quidem aliquid deleniti sapiente sint nisi temporibus doloribus, impedit expedita dolorum. Tempore dolorum molestias, saepe sapiente sit, totam ab quisquam reiciendis assumenda error expedita dolores libero. Placeat rem hic aliquam alias ea mollitia itaque! Unde dolores consectetur ex hic enim sed architecto aut fugit, labore repellendus, esse a. Vero.</p>
+    </div>
+
+    <!--Modal-->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register to get offers, support, and more</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password">
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Confirm Password">
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
